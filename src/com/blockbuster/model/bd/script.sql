@@ -49,7 +49,7 @@ CREATE TABLE cliente(
     run VARCHAR(13),
     nombre VARCHAR(100),
     direccion VARCHAR(200),
-    edad INT,
+    fechaNacimiento DATE,
     PRIMARY KEY(id)
 );
 
@@ -127,14 +127,14 @@ INSERT INTO generoPelicula VALUES(NULL, '1','2');
 INSERT INTO generoPelicula VALUES(NULL, '6','2');
 /*INSERTS de LFDCSR*/
 
-INSERT INTO cliente VALUES(NULL, '11-1','Max','dir1','10');
-INSERT INTO cliente VALUES(NULL, '22-2','IZIN','dir2','21');
-INSERT INTO cliente VALUES(NULL, '33-3','Chiquitin','dir3','18');
-INSERT INTO cliente VALUES(NULL, '44-4','Jim Morrinson','dir4','22');
-INSERT INTO cliente VALUES(NULL, '55-5','Tapia','dir5','75');
-INSERT INTO cliente VALUES(NULL, '66-6','Torres','dir6','22');
-INSERT INTO cliente VALUES(NULL, '77-7','Mr. Cordero','dir7','19');
-INSERT INTO cliente VALUES(NULL, '88-8','Toro','dir8','12');
+INSERT INTO cliente VALUES(NULL, '11-1','Max','dir1','2008-01-02');
+INSERT INTO cliente VALUES(NULL, '22-2','IZIN','dir2','1997-12-5');
+INSERT INTO cliente VALUES(NULL, '33-3','Chiquitin','dir3','2000-04-30');
+INSERT INTO cliente VALUES(NULL, '44-4','Jim Morrinson','dir4','1996-09-07');
+INSERT INTO cliente VALUES(NULL, '55-5','Tapia','dir5','1943-05-01');
+INSERT INTO cliente VALUES(NULL, '66-6','Torres','dir6','1996-01-01');
+INSERT INTO cliente VALUES(NULL, '77-7','Mr. Cordero','dir7','1999-03-15');
+INSERT INTO cliente VALUES(NULL, '88-8','Toro','dir8','2005-04-01');
 
 INSERT INTO empleado VALUES(NULL, '99-9','Zuñiga');
 INSERT INTO empleado VALUES(NULL, '10-10','Joselito');
